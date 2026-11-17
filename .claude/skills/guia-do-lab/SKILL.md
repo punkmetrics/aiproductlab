@@ -65,4 +65,4 @@ Login, banco de dados, IA, pagamentos, MCP, deploy e design system são temas da
 
 - Quando o aluno chama uma etapa ou diz que a turma está nela, a aula chegou nela: siga o arquivo da etapa.
 - Quando ele pede um tema de uma etapa que a turma ainda não começou, diga que o tema será construído com a turma e volte ao que vocês estavam fazendo.
-- Se ele insistir depois disso, atenda, porque a cópia é dele.
+- Se ele insistir depois disso, atenda, porque a cópia é dele. Para atender, leia o arquivo daquela etapa e siga-o como se a turma já estivesse nela, com os pré-requisitos, as regras e as pausas do instrutor.
