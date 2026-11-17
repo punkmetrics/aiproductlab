@@ -151,7 +151,7 @@ Troque `<PID>` pelo número que o primeiro comando mostrou.
 
 ```
 aiproductlab/
-├── .claude/skills/guia-do-lab/   skill que guia o setup
+├── .claude/skills/guia-do-lab/   skill que guia o setup e as etapas da aula
 ├── apps/
 │   ├── web/                      app web (Next.js)
 │   │   └── app/showcase/         design system base da turma

@@ -32,7 +32,7 @@ Os alunos usam macOS ou Windows.
 - Funcionalidades de produto: telas próprias, registro de projetos, CRUD e painel de status.
 - Implementação de login, banco de dados, IA, pagamentos e MCP. As pastas existem, mas nada é implementado até ser ditado.
 - Dependências desses temas, como os SDKs de MCP, Supabase, Anthropic e Stripe.
-- Configuração de deploy na Vercel e no Railway.
+- Configuração de deploy na Vercel.
 - Forma de distribuir o template aos alunos.
 - Suíte de testes automatizados, já que o esqueleto não tem regra de negócio.
 
@@ -67,7 +67,7 @@ aiproductlab/
 
 - **Repositório único com npm workspaces:** um `npm install` e um `npm run dev` na raiz cuidam dos dois apps.
 - **`apps/web`:** Next.js com App Router, TypeScript e Tailwind. O destino de publicação é a Vercel.
-- **`apps/api`:** Hono com TypeScript. O destino de publicação é o Railway.
+- **`apps/api`:** Hono com TypeScript. O destino de publicação é a Vercel.
 - **Separação:** a web não acessa o banco diretamente. Quando houver integração, ela passa pela API.
 - **Pastas da API:** `routes/` guarda os endpoints REST, `mcp/` as ferramentas MCP, `services/` as regras de negócio usadas pelo REST e pelo MCP, e `db/` as tabelas e a conexão.
 

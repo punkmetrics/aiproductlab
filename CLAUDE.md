@@ -16,7 +16,7 @@ Os scripts do `package.json` não podem depender de shell Unix.
 
 - `apps/web`: app web em Next.js, publicado na Vercel.
 - `apps/web/app/showcase`: pasta onde a turma cria o design system base. Siga o `INSTRUCOES.md` da pasta.
-- `apps/api`: API e MCP em Hono, publicados no Railway.
+- `apps/api`: API e MCP em Hono, publicados na Vercel.
 - `apps/api/src/routes`: endpoints REST.
 - `apps/api/src/mcp`: ferramentas MCP.
 - `apps/api/src/services`: regras de negócio, usadas pelo REST e pelo MCP.
@@ -34,7 +34,7 @@ Rode na raiz do projeto:
 
 ## Setup
 
-Para preparar o ambiente ou resolver problemas no setup, use a skill `guia-do-lab`.
+Para preparar o ambiente, resolver problemas no setup ou seguir uma etapa da aula, use a skill `guia-do-lab`.
 
 ## Escopo
 
