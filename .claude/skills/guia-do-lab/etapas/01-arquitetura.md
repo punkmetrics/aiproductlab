@@ -14,6 +14,7 @@ Se `docs/arquitetura.md` já existe, a etapa já foi feita. Mostre um resumo cur
 - **Várias respostas de uma vez:** registre todas e faça só a próxima pergunta que ainda não tem resposta.
 - **"Decide por mim":** mostre a recomendação da pergunta atual e peça que o aluno confirme. Continue uma pergunta por vez.
 - **Escolha diferente da recomendação:** aceite a escolha e diga, em uma frase, em que ela difere do template. Explique que nada muda no código agora e que a escolha fica registrada no doc.
+- **Canvas:** a cada resposta, registre a escolha no canvas, como em [../canvas/como-atualizar.md](../canvas/como-atualizar.md), e avise numa frase curta junto com a próxima pergunta. Na primeira pergunta, marque a etapa 01 como `andamento` no canvas.
 
 ## Perguntas
 
@@ -42,7 +43,8 @@ Se `docs/arquitetura.md` já existe, a etapa já foi feita. Mostre um resumo cur
    Siga as decisões de arquitetura em docs/arquitetura.md.
    ```
 
-5. Diga ao aluno que a etapa 01 terminou.
+5. No canvas, marque a etapa 01 como `concluida` e confira que as 11 decisões estão iguais às do `docs/arquitetura.md`.
+6. Diga ao aluno que a etapa 01 terminou.
 
 ### Formato de `docs/arquitetura.md`
 

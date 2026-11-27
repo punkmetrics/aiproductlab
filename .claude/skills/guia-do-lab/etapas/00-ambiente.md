@@ -71,6 +71,12 @@ O ambiente está pronto quando as duas condições forem verdadeiras:
 
 Só então diga que o ambiente está pronto.
 
+## Passo 6: criar o canvas
+
+Crie o canvas do projeto seguindo [../canvas/como-atualizar.md](../canvas/como-atualizar.md), na seção **Criar**. Você mesmo copia os arquivos: o aluno não roda nada para isso.
+
+Explique ao aluno, em duas frases, que o canvas é um mapa das escolhas dele, que muda a cada etapa e que fica fora do projeto. Depois mostre como abrir, com o comando da plataforma dele, e peça que ele confirme que a página abriu.
+
 ## Problemas comuns
 
 **Comando não encontrado:** feche o terminal, abra outro e repita o comando. Se continuar, volte ao passo 2.
