@@ -43,6 +43,7 @@ Antes do CI e do deploy, a cópia do aluno precisa apontar para um repositório 
 - **Pré-requisito:** o repositório próprio, da parte 2.
 - **Pedido:** guie o aluno a pedir ao Claude um CI básico no GitHub Actions. Esse CI roda a cada PR para a branch `main`, instala as dependências e roda o build. Sugira um pedido como este: "cria um CI básico no GitHub Actions que rode a cada PR para a main, instalando as dependências e rodando o build".
 - **Limite:** fique só nesse CI básico. Testes, lint e deploy pelo CI o instrutor explica na hora.
+- **Dica de segurança:** depois do CI, conte em uma ou duas frases que o Claude Code tem routines, que rodam na nuvem em horários marcados ou quando algo acontece no GitHub, e que dá para usá-las numa revisão de segurança do projeto. O CI confere se o build passa, e a routine pode procurar chaves expostas e falhas de acesso. Recomende começar com ela só relatando, sem alterar código. Não configure nada: se o instrutor quiser demonstrar, ele conduz.
 
 ## Parte 4: monitoramento
 
@@ -54,3 +55,7 @@ Antes do CI e do deploy, a cópia do aluno precisa apontar para um repositório 
 - **PostHog:** incentive o aluno a criar uma conta gratuita no PostHog e a instalar o web analytics básico.
   - O próprio aluno cria a conta, no site do PostHog. Você não cria contas.
   - A chave do projeto no PostHog vai para o `.env` e para as variáveis do projeto da web na Vercel.
+
+## Parte 5: enxergar o pipeline
+
+- **Pausa do instrutor:** ele demonstra o [pipeline-board](https://github.com/lucianfialho/pipeline-board), um plugin do Claude Code que desenha o pipeline num quadro interativo. Não instale nem rode o plugin antes da demonstração.

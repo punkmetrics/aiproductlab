@@ -97,10 +97,10 @@ As perguntas vêm uma por mensagem, nesta ordem. Os tópicos que o instrutor dit
 | 2 | Como a aplicação se organiza: monorepo ou aplicações separadas | Monorepo |
 | 3 | O front-end vive independente da API? | Sim, a web só fala com a API |
 | 4 | Banco de dados e integrações: SQLite, Supabase ou Neon | Supabase |
-| 5 | Declarações explícitas na configuração do projeto | Nenhuma; pergunta aberta |
-| 6 | Rotinas obrigatórias | Nenhuma; pergunta aberta |
+| 5 | Declarações explícitas na configuração do projeto | Textos da interface em português, comandos do projeto e chaves só no `.env` |
+| 6 | Rotinas obrigatórias | Antes de cada commit, rodar o build e conferir que nenhuma chave vai junto |
 | 7 | Padrão visual: de onde consumir os padrões | O design system do `showcase`, criado na etapa 02 |
-| 8 | Dos e don'ts | Nenhuma; pergunta aberta |
+| 8 | Dos e don'ts | Focar no que evitar, com regras específicas e o motivo de cada uma |
 | 9 | Regras de acesso ao banco de dados | Só a API acessa o banco |
 | 10 | Regras para criar as integrações via API | Nenhuma; pergunta aberta |
 | 11 | Comportamento da interface | Nenhuma; pergunta aberta |
@@ -143,9 +143,11 @@ Ao final das perguntas 1, 2, 4 e 5, a skill mostra um resumo, pede confirmação
 - **Repositório próprio:** a cópia do aluno ainda aponta para o template. Antes do CI e do deploy, a skill guia o aluno a criar o próprio repositório no GitHub e a apontar a cópia para ele, com comandos para macOS e Windows.
 - **CI:** a skill guia o aluno a pedir ao Claude um CI básico no GitHub Actions, que roda a cada PR para a branch `main` com instalação e build.
   - A skill fica só no básico. O resto o instrutor explica na hora.
+  - Depois do CI, a skill dá uma dica sobre usar routines do Claude Code numa revisão de segurança, sem configurar nada.
 - **Monitoramento:** a skill mostra que existem Sentry, Datadog, PostHog e GA4.
   - Ela incentiva o aluno a criar uma conta gratuita no PostHog e a instalar o web analytics básico.
   - O próprio aluno cria a conta. A chave vai para o `.env` e para as variáveis do projeto na Vercel.
+- **Enxergar o pipeline:** o instrutor demonstra o plugin pipeline-board (pausa do instrutor). A skill não instala nem roda o plugin antes da demonstração.
 
 ## Etapa 05: AI features
 
