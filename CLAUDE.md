@@ -21,6 +21,7 @@ Os scripts do `package.json` não podem depender de shell Unix.
 - `apps/api/src/mcp`: ferramentas MCP.
 - `apps/api/src/services`: regras de negócio, usadas pelo REST e pelo MCP.
 - `apps/api/src/db`: tabelas e conexão com o banco.
+- `canvas/`: mapa visual das decisões do aluno, em HTML, CSS e JS puros. Fica fora do Git e não faz parte do produto. A skill `guia-do-lab` cria e atualiza.
 
 A web não acessa o banco diretamente: quando houver integração, ela passa pela API.
 

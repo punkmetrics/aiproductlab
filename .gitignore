@@ -14,3 +14,7 @@ next-env.d.ts
 npm-debug.log*
 .DS_Store
 Thumbs.db
+
+# Canvas do aluno: mapa visual das decisões, gerado pela skill guia-do-lab.
+# Fica fora do projeto: não entra em commit, build nem deploy.
+/canvas/

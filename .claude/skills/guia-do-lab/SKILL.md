@@ -19,7 +19,7 @@ Conduz um aluno não-dev do AI Product Lab pelo setup e pelas etapas da aula, no
 
 | Etapa | Tema | Arquivo | Pré-requisitos |
 |---|---|---|---|
-| 00 | Ambiente: instalar, subir e conferir o projeto | [etapas/00-ambiente.md](etapas/00-ambiente.md) | nenhum |
+| 00 | Ambiente: instalar, subir e conferir o projeto, e criar o canvas | [etapas/00-ambiente.md](etapas/00-ambiente.md) | nenhum |
 | 01 | Arquitetura da aplicação | [etapas/01-arquitetura.md](etapas/01-arquitetura.md) | 00 |
 | 02 | UI e UX: biblioteca de UI, motion e design system | [etapas/02-ui-ux.md](etapas/02-ui-ux.md) | 01 |
 | 03 | Login, orgs e pagamentos | [etapas/03-autenticacao-pagamentos.md](etapas/03-autenticacao-pagamentos.md) | 00 e 01 |
@@ -58,6 +58,18 @@ cp .env.example .env
 ```powershell
 Copy-Item .env.example .env
 ```
+
+## Canvas do projeto
+
+O canvas é uma página que mostra num mapa as escolhas do aluno: as peças do projeto, as tecnologias, as decisões e as etapas. Ele faz parte do fluxo da aula e acompanha cada etapa.
+
+- **Onde:** em `canvas/`, na raiz da cópia do aluno. A pasta está no `.gitignore`: o canvas não faz parte do projeto e não entra em commit, build nem deploy.
+- **Como é feito:** HTML, CSS e JavaScript puros, sem nenhuma dependência. Nada de framework, biblioteca, CDN, fonte da internet ou npm. Ele abre direto do disco.
+- **Quando criar:** no passo 6 da etapa 00. Se a pasta `canvas/` não existir quando uma etapa começar, crie antes de seguir.
+- **Quando atualizar:** depois de cada resposta registrada na etapa 01, e quando uma etapa começa ou termina.
+- **Como:** siga [canvas/como-atualizar.md](canvas/como-atualizar.md). Copie o modelo da pasta `canvas/` desta skill e edite só o `dados.js` do aluno.
+
+Atualizar o canvas não conta como uma pergunta ao aluno: faça junto com a mensagem que já ia mandar e avise numa frase curta.
 
 ## Temas que a aula ainda não alcançou
 
