@@ -24,10 +24,10 @@ Se `docs/arquitetura.md` já existe, a etapa já foi feita. Mostre um resumo cur
 | 2 | Organização | A aplicação fica num monorepo, com web e API no mesmo repositório, ou em aplicações separadas? | Recomendação: monorepo, como o template. |
 | 3 | Front-end e API | O front-end vive independente da API? | Recomendação: sim. A web só fala com a API. |
 | 4 | Banco de dados e integrações | Qual banco de dados você vai usar: SQLite, Supabase ou Neon? | Recomendação: Supabase, para facilitar. |
-| 5 | Declarações na configuração do projeto | O que deve ficar declarado na configuração do projeto, para o Claude seguir sempre? | Exemplo: "os textos da interface são sempre em português". |
-| 6 | Rotinas obrigatórias | Que rotinas precisam acontecer sempre? | Exemplo: "rodar o build antes de cada commit". |
+| 5 | Declarações na configuração do projeto | O que deve ficar declarado na configuração do projeto, para o Claude seguir sempre? | Recomendação: declarar que os textos da interface são em português, quais são os comandos do projeto e que as chaves ficam só no `.env`. |
+| 6 | Rotinas obrigatórias | Que rotinas precisam acontecer sempre? | Recomendação: antes de cada commit, rodar o build e conferir que nenhuma chave vai junto. |
 | 7 | Padrão visual | De onde o projeto consome os padrões visuais? | Recomendação: do design system do `showcase`, criado na etapa 02. |
-| 8 | Dos e don'ts | O que o projeto deve sempre fazer e o que deve evitar? | Exemplo: "não usar bibliotecas pagas". |
+| 8 | Dos e don'ts | O que o projeto deve sempre fazer e o que deve evitar? | Recomendação: focar no que evitar, com regras específicas e o motivo de cada uma. Por exemplo: "não mexer em código fora do pedido, para não quebrar o que já funciona", "não instalar biblioteca nova sem perguntar" e "não colocar chave no código nem no chat". |
 | 9 | Acesso ao banco de dados | Quais são as regras de acesso ao banco de dados? | Recomendação: só a API acessa o banco. |
 | 10 | Integrações via API | Quais são as regras para criar as integrações via API? | Exemplo: "toda integração externa passa por um service da API". |
 | 11 | Comportamento da interface | Como a interface deve se comportar? | Exemplo: "mostrar um aviso claro quando algo der errado". |
